@@ -26,7 +26,7 @@ class Thprodupdmaincat extends Module
     {
         $this->name = 'thprodupdmaincat';
         $this->tab = 'administration';
-        $this->version = '1.0.0';
+        $this->version = '1.0.1';
         $this->author = 'Presta Maniacs';
         $this->need_instance = 0;
         $this->bootstrap = true;
@@ -36,7 +36,7 @@ class Thprodupdmaincat extends Module
         $this->displayName = $this->l('Automatically update Products Default Category');
         $this->description = $this->l('Automatically changes the default category to the product category with the highest depth level.');
 
-        $this->ps_versions_compliancy = array('min' => '1.7', 'max' => _PS_VERSION_);
+        $this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
     }
 
     public function install()
